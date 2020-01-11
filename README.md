@@ -1,8 +1,8 @@
 ### Learning Go
 
-1.   Write test first
-2.   Write code second
-3.   A simple calculator code
+1.  Write test first
+2.  Write code second
+3.  A simple calculator code
     -   [ ] Validation a return value in a range of int type
 ### Example
 
