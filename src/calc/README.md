@@ -2,7 +2,8 @@
 
 -   Write test first
 -   Write code second
-
+-   A simple calculator code
+    -   [ ] Not validated a return value in a range of int type
 ### Example
 
 -   folder structure
