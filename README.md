@@ -1,9 +1,9 @@
 ### Learning Go
 
--   Write test first
--   Write code second
--   A simple calculator code
-    -   [ ] Not validated a return value in a range of int type
+1.   Write test first
+2.   Write code second
+3.   A simple calculator code
+    -   [ ] Validation a return value in a range of int type
 ### Example
 
 -   folder structure
