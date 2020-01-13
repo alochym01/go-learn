@@ -85,6 +85,7 @@
     ```
 -   sample of calc.go
     ```go
+    // Package calc is implemented Add/Substract/Nultiply/Divide function.
     package calc
 
     // Add takes two integers and returns the sum of them.
