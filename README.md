@@ -23,7 +23,10 @@
     ```go
     package calc
 
-    import "testing"
+    import (
+        "fmt"
+        "testing"
+    )
 
     func TestCalc(t *testing.T) {
         t.Run("Running test add function", func(t *testing.T) {
@@ -54,6 +57,30 @@
                 t.Errorf("got %q want %q", got, want)
             }
         })
+    }
+
+    func ExampleAdd() {
+        sum := Add(1, 5)
+        fmt.Println(sum)
+        // Output: 6
+    }
+
+    func ExampleSubstract() {
+        sum := Substract(1, 5)
+        fmt.Println(sum)
+        // Output: -4
+    }
+
+    func ExampleMultiply() {
+        sum := Multiply(1, 5)
+        fmt.Println(sum)
+        // Output: 5
+    }
+
+    func ExampleDivide() {
+        sum := Divide(1, 5)
+        fmt.Println(sum)
+        // Output: 0
     }
     ```
 -   sample of calc.go
