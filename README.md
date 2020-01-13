@@ -4,7 +4,8 @@
 -   Write code second
 -   A simple calculator code
     -   [ ] Not validated a return value in a range of int type
--   View go document `godoc -http:=8080/pkg/calc`
+-   View go document `godoc -http:=8080`
+    -   Navigate to `http://localhost:8080/pkg/calc`
 ### Example
 
 -   folder structure
