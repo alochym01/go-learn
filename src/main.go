@@ -1,8 +1,9 @@
 package main
 
 import (
-	"calc"
 	"fmt"
+
+	"github.com/alochym01/go-learn/src/calc"
 )
 
 func main() {

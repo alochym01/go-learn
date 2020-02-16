@@ -1,3 +1,21 @@
+### VS Code setting
+
+-   Setting GOPATH for terminal `/opt/hadn/go`
+-   Using `go mod init github.com/alochym01/go-learn` in current directory
+-   go-tool for vs code
+    -   user setting
+        ```json
+        {
+            "editor.fontFamily": "'Fira Code'",
+            "editor.fontSize": 18,
+            "editor.fontLigatures": true,
+            "editor.fontWeight": "bold",
+            "terminal.integrated.fontFamily": "'Fira Code'",
+            "files.trimTrailingWhitespace": true,
+            "go.toolsGopath": "/opt/hadn/go",
+        }
+        ```
+
 ### Learning Go
 
 -   Write test first
@@ -126,3 +144,21 @@
     PASS
     ok      calc    (cached)
     ```
+-   create `main.go` file in `src` folder, content `main.go`
+    ```go
+    package main
+
+    import (
+        "fmt"
+
+        "github.com/alochym01/go-learn/src/calc"
+    )
+
+    func main() {
+        fmt.Println(calc.Add(2, 3))
+        fmt.Println(calc.Substract(2, 3))
+        fmt.Println(calc.Multiply(2, 3))
+        fmt.Println(calc.Divide(2, 3))
+    }
+    ```
+-   run `go run main.go`
