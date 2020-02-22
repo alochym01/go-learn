@@ -7,6 +7,7 @@ import (
 
 func TestAdd(t *testing.T) {
 	assertCorrectMessage := func(t *testing.T, got, want int) {
+		t.Helper()
 		if got != want {
 			t.Errorf("want '%d' but got '%d'", want, got)
 		}

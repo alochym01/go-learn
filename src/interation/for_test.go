@@ -4,6 +4,7 @@ import "testing"
 
 func TestRepeat(t *testing.T) {
 	assertCorrectMessage := func(t *testing.T, got, want string) {
+		t.Helper()
 		if got != want {
 			t.Errorf("want '%q' but got '%q'", want, got)
 		}
