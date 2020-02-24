@@ -16,6 +16,7 @@ func TestPerimeter(t *testing.T) {
 }
 
 func TestArea(t *testing.T) {
+	// https://github.com/quii/learn-go-with-tests/blob/master/structs-methods-and-interfaces.md#make-sure-your-test-output-is-helpful
 	checkArea := func(t *testing.T, shape Shape, want float64) {
 		t.Helper()
 		got := shape.Area()
